@@ -131,7 +131,7 @@ def remove_item():
     print(f"{remove_choice} has been removed from the cart.")
     print("---------------------------")
 
-    remove_choice = input("Enter the item number to remove OR press ENTER to exit: ")
+    print(remove_choice)
 
 
 discount_used = False
@@ -194,19 +194,10 @@ def checkout():
 
 
 
-
-        
-        
-    
-
-
-
-
-
-
-
-
-
 def main():
     main_menu()
+
+
+
+
 main()
